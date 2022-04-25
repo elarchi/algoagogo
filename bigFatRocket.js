@@ -17,3 +17,5 @@ const bigFatRocket = () => {
   }
 };
 bigFatRocket();
+
+//pour savoir si un nombre n1 est multiple d'un nombre n2, on cherche si le reste de la division de ce nombre n1 par le nombre n2 dont il est potentiellement le mutliple est nul. Si le reste est nul, notre nombre n1 est bien multiple du nombre n2.
