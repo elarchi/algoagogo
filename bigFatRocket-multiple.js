@@ -1,8 +1,15 @@
-//Write a function called bigFatRocket which displays the numbers from 1 to 87 but which displays the strings Big for a multiple of 3, Fat for a multiple of 5 and finally Rocket for a multiple of 3 and 5.
-//Your code must contain function declaration and function execution.
-//10 minutes
+/*
+Write a function called bigFatRocket which displays the numbers from 1 to 87 but which displays the strings Big for a multiple of 3, Fat for a multiple of 5 and finally Rocket for a multiple of 3 and 5.
+Your code must contain function declaration and function execution.
+------------------------------------------------------------
+TIME: 10min
+------------------------------------------------------------
+*/
 
-//MON 25 APR 2022
+/*
+MON-25-APR-2022
+---------------
+*/
 const bigFatRocket = () => {
   for (let i = 1; i < 88; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
