@@ -1,6 +1,6 @@
-//Écrire une fonction nommée bigFatRocket qui affiche les nombres de 1 à 87 mais qui affiche les string Big pour un multiple de 3, Fat pour un multiple de 5 et enfin Rocket pour un multiple de 3 et 5.
-//Votre code doit contenir la déclaration de fonction et l'exécution de fonction.
-//10min
+//Write a function called bigFatRocket which displays the numbers from 1 to 87 but which displays the strings Big for a multiple of 3, Fat for a multiple of 5 and finally Rocket for a multiple of 3 and 5.
+//Your code must contain function declaration and function execution.
+//10 minutes
 
 //MON 25 APR 2022
 const bigFatRocket = () => {
@@ -18,4 +18,4 @@ const bigFatRocket = () => {
 };
 bigFatRocket();
 
-//pour savoir si un nombre n1 est multiple d'un nombre n2, on cherche si le reste de la division de ce nombre n1 par le nombre n2 dont il est potentiellement le mutliple est nul. Si le reste est nul, notre nombre n1 est bien multiple du nombre n2.
+//To find out if a number n1 is a multiple of a number n2, we find out if the remainder of the division of this number n1 by the number n2 of which it is potentially the multiple is zero. If the remainder is zero, our number n1 is indeed a multiple of the number n2.
