@@ -14,8 +14,8 @@ TIME: 10min
 */
 
 /*
-TUESDAY-26-APRIL
-----------------
+TUESDAY-26-APRIL-2022
+---------------------
 */
 
 const findMissingNumber = (arr) => {
@@ -27,20 +27,16 @@ const findMissingNumber = (arr) => {
     // WARNING! On googleChrome, a=b and b=a. On Firefox, a=a and b=b.
     return a - b;
   });
-  console.log("ascArr:", ascArr);
 
   /*Let's select our maximal value of numbers.*/
   const iMaxVal = ascArr.length - 1;
-  console.log("iMaxVal:", iMaxVal);
   const maxVal = ascArr[iMaxVal];
-  console.log("maxVal:", maxVal);
 
   /*Let's create an array with all the numbers between those two intervals.*/
   const allNumbers = [];
   for (let i = 1; i <= maxVal; i++) {
     allNumbers.push(i);
   }
-  console.log("allNumbers:", allNumbers);
 
   /*Let's compare arr with allNumbers, and let's keep the numbers who are missing in arr in a new array.*/
   const missingNumbers = [];

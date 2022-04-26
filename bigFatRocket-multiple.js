@@ -7,8 +7,8 @@ TIME: 10min
 */
 
 /*
-MON-25-APR-2022
----------------
+MONDAY-25-APRIL-2022
+--------------------
 */
 const bigFatRocket = () => {
   for (let i = 1; i < 88; i++) {
